@@ -30,10 +30,6 @@ gem 'jbuilder', '~> 1.2'
 # Bootstrap
 gem "bootstrap-sass", "~> 3.0.3.0"
 
-group :development, :test do
-     gem 'sqlite3'
-end
-
 group :production do
      gem 'pg'
      gem 'rails_12factor'
