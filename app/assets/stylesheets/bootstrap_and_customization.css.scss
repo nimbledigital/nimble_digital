@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+$body-bg:                         #ecf0f1;
+$font-family:          			  'Merriweather', serif;
+$navbar-height:                   45px;
+$navbar-default-bg:               white;
+$navbar-default-brand-color:      #d6412b;
+$brand-primary:                   #d6412b;
+$jumbotron-bg:                    white;
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
